@@ -1,0 +1,47 @@
+#login, #Register {
+	float: left;
+}
+.h1Register {
+	margin-left: 30px;
+}
+.borderLogin {
+	border:1px solid black;
+	width: 300px;
+	height: 250px;
+	padding: 20px;
+	float: left;
+}
+.red {
+	color: red;
+}
+.box{
+	width: 290px;
+	height: 35px;
+	border-radius: 2px 2px 2px 2px;
+}
+.buttonLogin {
+	float: left;
+}
+.buttonCheckbox {
+	float: left;
+	margin-left: 10px;
+}
+.borderRegister {
+	border:1px solid black;
+	width: 300px;
+	height: 400px;
+	padding: 20px;
+	float: left;
+	margin-left: 30px;
+}
+.firstName, .lastName {
+	display: block;
+	width: 150px;
+	float: left;
+}
+.boxFirstName, .boxLastName {
+	width: 140px;
+	height: 35px;
+	float: left;
+	border-radius: 2px 2px 2px 2px;
+}

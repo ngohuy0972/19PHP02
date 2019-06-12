@@ -1,0 +1,401 @@
+body {
+	margin: 0 auto;
+	background-image: linear-gradient(white,#00A680 140%);
+	width:1200px;
+}
+.logoQB {
+	width:215px;
+	height: 150px;
+}
+.banner {
+	width: 950px;
+	text-shadow: 4px 4px black;
+	color: yellow;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 150px;
+}
+.header {
+	display: block;
+	width: 1200px;
+	height: 150px;
+	border-bottom: 2px solid black;
+	background-image: linear-gradient(white,#00A680 140%);
+}
+.logo {
+	float: left;
+}
+.menu ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 65px;
+}
+.menu {
+	width: 1200px;
+	height: 45px;
+	display: block;	
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	background: #00A680;
+}
+.inMenu {
+	display: block;
+    text-align: center;
+    margin-left: 165px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-top: -15px;	
+}
+.inMenu:hover {
+    color: #00A680;
+    background: white;
+}
+.news {
+	display: block;
+	width: 800px;
+	margin-left: 200px;
+}
+.imageNews {
+	width: 370px;
+	height: 245px;
+}
+.news1, .news2, .news3, .news4 {
+	margin:10px 10px 10px 10px;
+	width: 370px;
+	display: block;
+	text-align: center;
+	background:#f1f1f1;
+	float: left;
+	border-radius: 5%; 
+
+}
+.titleNews {
+	text-decoration: none;
+	color: black;
+}
+input {
+	background: #00A680;
+	width: 100px;
+	height: 30px;
+	color: white;
+	border-radius: 15%;
+	margin-bottom: 5px;
+}
+.footer {
+	width: 100%;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+	border-top: 2px solid black;
+	background: #00A680;
+	color: white;
+}
+/*===================================================================*/
+/*Màn hình rộng nhất 1024px*/
+@media screen and (max-width: 1024px){
+	body {
+		margin: 0 auto;
+		width: 1024px;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logoQB {
+		width: 90%;
+	    height: 150px;
+	}
+	.banner {
+		text-shadow: 4px 4px black;
+	    color: yellow;
+	    font-size: 30px;
+	    text-align: center;
+	    margin-left: 150px;
+	    width: 70%;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 150px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 65px;
+	}
+	.menu {
+		width: 100%;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: 110px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;	
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	.news {
+		display: block;
+		width: 100%;
+		margin-left: 15px;
+	}
+	.imageNews {
+		width: 99%;
+		height: 245px;
+		border-top-right-radius: 5%;
+		border-top-left-radius: 5%;
+	}
+	.news1, .news2, .news3, .news4 {
+		margin:5px 5px 5px 5px;
+		width: 47%;
+		display: block;
+		text-align: center;
+		background:#f1f1f1;
+		float: left;
+		border-radius: 5%; 
+		margin-left: 10px;
+	}
+	.titleNews {
+		text-decoration: none;
+		color: black;
+	}
+	input {
+		background: #00A680;
+		width: 100px;
+		height: 30px;
+		color: white;
+		border-radius: 15%;
+		margin-bottom: 5px;
+	}
+	.footer {
+		width: 100%;
+		font-size: 20px;
+		float: left;
+		text-align: center;
+		border-top: 2px solid black;
+		background: #00A680;
+		color: white;
+	}
+}
+/*===================================================================*/
+/*Màn hình rộng nhất 768px*/
+@media screen and (max-width: 768px){
+	body {
+		margin: 0 auto;
+		width: 768px;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logoQB {
+		width: 90%;
+	    height: 150px;
+	}
+	.banner {
+		text-shadow: 4px 4px black;
+	    color: yellow;
+	    font-size: 25px;
+	    text-align: center;
+	    margin-left: 150px;
+	    width: 70%;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 150px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 15px;
+	}
+	.menu {
+		width: 100%;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: 90px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;	
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	.news {
+		display: block;
+		width: 100%;
+		margin-left: -5px;
+	}
+	.imageNews {
+		width: 99%;
+		height: 350px;
+		border-top-right-radius: 5%;
+		border-top-left-radius: 5%;
+	}
+	.news1, .news2, .news3, .news4 {
+		margin:5px 5px 5px 5px;
+		width: 100%;
+		display: block;
+		text-align: center;
+		background:#f1f1f1;
+		float: left;
+		border-radius: 5%; 
+	}
+	.titleNews {
+		text-decoration: none;
+		color: black;
+	}
+	input {
+		background: #00A680;
+		width: 100px;
+		height: 30px;
+		color: white;
+		border-radius: 15%;
+		margin-bottom: 5px;
+	}
+	.footer {
+		width: 100%;
+		font-size: 20px;
+		float: left;
+		text-align: center;
+		border-top: 2px solid black;
+		background: #00A680;
+		color: white;
+	}
+}
+/*Màn hình rộng nhất 480px*/
+@media screen and (max-width: 480px	){
+	body {
+		margin: 0 auto;
+		width: 480px;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logoQB {
+		width: 100%;
+	    height: 80px;
+	}
+	.banner {
+		text-shadow: 4px 4px black;
+	    color: yellow;
+	    font-size: 15px;
+	    text-align: center;
+	    margin-left: 150px;
+	    width: 70%;
+	}
+	h1 {
+		margin-left: -25px;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 80px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+		width: 121px;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 20px;
+	}
+	.menu {
+		width: 100%;
+		height: 30px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+	    display: block;
+	    text-align: center;
+	    margin-left: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;
+	    font-size: 10px;
+	    margin-right: 40px;
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	.news {
+		display: block;
+		width: 100%;
+		margin-left: 15px;
+	}
+	.imageNews {
+		width: 99%;
+		height: 245px;
+		border-top-right-radius: 5%;
+		border-top-left-radius: 5%;
+	}
+	.news1, .news2, .news3, .news4 {
+		margin:5px 5px 5px 5px;
+		width: 92%;
+		display: block;
+		text-align: center;
+		background:#f1f1f1;
+		float: left;
+		border-radius: 5%; 
+	}
+	.titleNews {
+		text-decoration: none;
+		color: black;
+	}
+	input {
+		background: #00A680;
+		width: 100px;
+		height: 30px;
+		color: white;
+		border-radius: 15%;
+		margin-bottom: 5px;
+	}
+	.footer {
+		width: 100%;
+		font-size: 20px;
+		float: left;
+		text-align: center;
+		border-top: 2px solid black;
+		background: #00A680;
+		color: white;
+	}
+}

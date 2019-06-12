@@ -1,0 +1,104 @@
+.container {
+	margin: 0 auto;
+	width: 1000px;
+	border:1px solid black;
+}
+.title	{
+	border:1px solid blue;
+	background: blue;
+	width: 99.8%;
+	height: 100px;
+	float: left;
+	margin-bottom: 10px;
+}
+.left {
+	border:1px solid green;
+	background: green;
+	width: 27%;
+	height: 500px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.center {
+	border:1px solid red;
+	background: red;
+	width: 50%;
+	height: 500px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.right	{
+	border:1px solid orange;
+	background: orange;
+	width: 20.4%;
+	height: 500px;
+	float: left;
+	margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+.title	{
+	border:1px solid blue;
+	background: blue;
+	width: 99.8%;
+	height: 100px;
+	float: left;
+	margin-bottom: 10px;
+}
+.left {
+	border:1px solid green;
+	background: green;
+	width: 99.8%;
+	height: 200px;
+	float: left;
+	margin-top: 10px;
+}
+.center {
+	border:1px solid red;
+	background: red;
+	width: 57.8%;
+	height: 700px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.right	{
+	border:1px solid orange;
+	background: orange;
+	width: 40%;
+	height: 700px;
+	float: left;
+	margin-top: 10px;
+	}
+}
+@media screen and (max-width: 320px) {
+.title	{
+	border:1px solid blue;
+	background: blue;
+	width: 99.8%;
+	height: 200px;
+	float: left;
+	margin-bottom: 10px;
+}
+.left {
+	border:1px solid green;
+	background: green;
+	width: 99.8%;
+	height: 200px;
+	float: left;
+	margin-top: 10px;
+}
+.center {
+	border:1px solid red;
+	background: red;
+	width: 99.8%;
+	height: 900px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.right {
+	display: none;
+}
+}

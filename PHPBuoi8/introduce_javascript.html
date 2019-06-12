@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Introduce Javascript</title>
+	<!-- Internal javascript -->
+	<script type="text/javascript">
+		alert('abc');
+	</script>
+	<script type="text/javascript" src="introduce.js"></script>
+</head>
+<body>
+	<!-- Inline Javascript -->
+	<p onclick="alert('abc')"></p>
+
+	<!-- 5 viec la cua javascript tren website -->
+	<!-- 1.Thay doi noi dung cua HTML -->
+	<p id="demo1">Hello javascript</p>
+	<a href="#" onclick="document.getElementById('demo1').innerHTML = 'Hello 19PHP02'">Change Content</a>
+	<!-- 2.Thay doi thuoc tinh cua HTML -->
+	<img src="image/phongnhahangtoi.jpg" alt="image" id="demo2">
+	<a href="#" onclick="document.getElementById('demo2').src='image/phongnhathienduong.jpg'">Change Image</a>
+	<!-- 3.Thay doi style cua HTML -->
+	<p id="demo3">Hello 19PHP02</p>
+	<a href="#" onclick="document.getElementById('demo3').style.color = 'red'">Change Color</a>
+	<!-- 4.An doi tuong cua HTML -->
+	<p id="demo4">Hello 19PHP04</p>
+	<a href="#" onclick="document.getElementById('demo4').style.display = 'none'">Hide Content</a>
+	<!-- 5.Hien thi doi tuong HTML -->
+	<a href="#" onclick="document.getElementById('demo4').style.display = 'block'">Show Content</a>
+</body>
+</html>

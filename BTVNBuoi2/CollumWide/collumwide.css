@@ -1,0 +1,37 @@
+.container {
+	margin:0 auto;
+	display: block;
+	border: 1px solid black;
+	width: 840px;
+}
+.top_section {
+	margin:0 auto;
+	margin-bottom:20px;
+	margin-top:20px;
+	display: block;
+	border: 1px solid white;
+	background-color: orange;
+	text-align: center;
+	width: 800px;
+	height: 100px;
+}
+.center_section {
+	margin:0 auto;
+	margin-bottom:20px;
+	display: block;
+	border: 1px solid white;
+	background-color: orange;
+	text-align: center;
+	width: 800px;
+	height: 400px;
+}
+.bottom_section {
+	margin:0 auto;
+	margin-bottom:20px;
+	display: block;
+	border: 1px solid white;
+	background-color: orange;
+	text-align: center;
+	width: 800px;
+	height: 100px;
+}

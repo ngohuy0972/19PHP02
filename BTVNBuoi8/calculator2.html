@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="css/Calculator2.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<div class="calculatorFrame">
+		<input id="calculatorSection" type="text" >
+		<input class="characters" type="button" value="7"  onclick="number('7')">
+		<input class="characters" type="button" value="8"  onclick="number('8')">
+		<input class="characters" type="button" value="9"  onclick="number('9')">
+		<input class="characters" type="button" value="/"  onclick="number('/')">
+		<input class="characters" type="button" value="del"  onclick="del()"> 	
+		<input class="characters" type="button" value="%"  onclick="number('%')">
+		<input class="characters" type="button" value="("  onclick="number('(')">
+		<input class="characters" type="button" value=")"  onclick="number(')')">
+		<input class="characters" type="button" value="4"  onclick="number('4')">
+		<input class="characters" type="button" value="5"  onclick="number('5')">
+		<input class="characters" type="button" value="6"  onclick="number('6')">
+		<input class="characters" type="button" value="*"  onclick="number('*')">
+		<input class="characters" type="button" value="C"  onclick="reset()">
+		<input class="characters" type="button" value="sqrt"  onclick="sqrt()">
+		<input class="characters" type="button" value="^"  onclick="pow()">
+		<input class="characters" type="button" value="!"  onclick="number('!')">
+		<input class="characters" type="button" value="1"  onclick="number('1')">
+		<input class="characters" type="button" value="2"  onclick="number('2')">
+		<input class="characters" type="button" value="3"  onclick="number('3')">
+		<input class="characters" type="button" value="+"  onclick="number('+')">
+		<input class="characters" type="button" value="sin"  onclick="sin()">
+		<input class="characters" type="button" value="tan"  onclick="tan()">
+		<input class="characters" type="button" value="log"  onclick="log()">
+		<input class="charactersZero" type="button" value="0"  onclick="number('0')">
+		<input class="characters" type="button" value="."  onclick="number('.')">
+		<input class="characters" type="button" value="-"  onclick="number('-')">
+		<input class="characters" type="button" value="cos"  onclick="cos()">
+		<input class="characters" type="button" value="cot"  onclick="cot()">
+		<input class="characters" type="button" value="e"  onclick="e()">
+		<input class="charactersEquals" type="button" value="="  onclick="equals()">
+	</div>
+	<script type="text/javascript" src="javascript/Calculator.js"></script>
+</body>
+</html>

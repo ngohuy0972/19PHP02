@@ -1,0 +1,21 @@
+body {
+	margin:0 auto;
+	border: 1px solid black;
+	padding: 20px;
+	width: 400px;
+}
+
+input {
+	width: 300px;
+	margin-left: 70px;
+}
+#male, #female, #other {
+	width: 50px;
+	margin-left: 0px;
+}
+#register {
+	width: 75px;
+}
+.error {
+	color:red;
+}

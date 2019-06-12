@@ -1,0 +1,457 @@
+body {
+	margin: 0 auto;
+	background-image: linear-gradient(white,#00A680 140%);
+	width:1200px;
+}
+.logoQB {
+	width:215px;
+	height: 150px;
+}
+.banner {
+	width: 950px;
+	text-shadow: 4px 4px black;
+	color: yellow;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 150px;
+}
+.header {
+	display: block;
+	width: 1200px;
+	height: 150px;
+	border-bottom: 2px solid black;
+	background-image: linear-gradient(white,#00A680 140%);
+}
+.logo {
+	float: left;
+}
+.menu ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 65px;
+}
+.menu {
+	width: 1200px;
+	height: 45px;
+	display: block;	
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	background: #00A680;
+}
+.inMenu {
+	display: block;
+    text-align: center;
+    margin-left: 165px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-top: -15px;	
+}
+.inMenu:hover {
+    color: #00A680;
+    background: white;
+}
+h2 {
+	text-align: center;
+}
+.red {
+	color:red;
+}
+.address, .phoneNumber, .hotline {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+input {
+	width:525px;
+	height: 30px;
+	border-radius: 5%;
+}
+.register {
+	display: block;
+	width: 600px;
+	border:1px solid black;
+	background: #eff7d2;
+	float: left;
+	margin-left: 300px;
+}
+.fieldName {
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 40px;
+}
+.info {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+.infoHotline {
+	color: red;
+	font-style: italic;
+	font-size: 20px;
+}
+.buttonRegister {
+	background: #479418;
+	color: white ;
+	border-radius: 10%;
+	width: 200px;
+	margin-left: 40px;
+}
+footer {
+	margin-top: 60px;
+	width: 100%;
+	float: left;
+}
+/*==============================================*/
+/*kích thước tối đa là 1024px*/
+@media screen and (max-width: 1024px) {
+	body {
+		margin: 0 auto;
+		background-image: linear-gradient(white,#00A680 140%);
+		width:1024px;
+	}
+	.logoQB {
+		width:215px;
+		height: 150px;
+	}
+	.banner {
+		width: 65%;
+		text-shadow: 4px 4px black;
+		color: yellow;
+		font-size: 30px;
+		text-align: center;
+		margin-left: 150px;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 150px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 65px;
+	}
+	.menu {
+		width: 100%;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: 60px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;
+	    margin-right: 110px;
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	.content {
+		width: 80%;
+	}
+	h2 {
+	    text-align: center;
+	    width: 100%;
+	    font-size: 28px;
+	    margin-left: 100px;
+	} 
+	.red {
+		color:red;
+	}
+	.address, .phoneNumber, .hotline {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+	}
+	input {
+		width:525px;
+		height: 30px;
+		border-radius: 5%;
+	}
+	.register {
+		display: block;
+		width: 600px;
+		border:1px solid black;
+		background: #eff7d2;
+		float: left;
+		margin-left: 210px;
+	}
+	.fieldName {
+		font-size: 25px;
+		font-weight: bold;
+		margin-left: 40px;
+	}
+	.info {
+		font-size: 20px;
+		font-style: italic;
+		text-align: center;
+	}
+	.infoHotline {
+		color: red;
+		font-style: italic;
+		font-size: 20px;
+	}
+	.buttonRegister {
+		background: #479418;
+		color: white ;
+		border-radius: 10%;
+		width: 200px;
+		margin-left: 40px;
+	}
+	footer {
+		margin-top: 60px;
+		width: 100%;
+		float: left;
+	}
+}
+/*==============================================*/
+/*kích thước tối đa là 768px*/
+@media screen and (max-width: 768px) {
+	body {
+		margin: 0 auto;
+		background-image: linear-gradient(white,#00A680 140%);
+		width:768px;
+	}
+	.logoQB {
+		width:215px;
+		height: 150px;
+	}
+	.banner {
+		width: 65%;
+		text-shadow: 4px 4px black;
+		color: yellow;
+		font-size: 30px;
+		text-align: center;
+		margin-left: 150px;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 150px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 10px;
+	}
+	.menu {
+		width: 100%;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: 60px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;
+	    margin-right: 110px;
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	.content {
+		width: 80%;
+	}
+	h2 {
+	    text-align: center;
+	    width: 100%;
+	    font-size: 20px;
+	    margin-left: 100px;
+	} 
+	.red {
+		color:red;
+	}
+	.address, .phoneNumber, .hotline {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+	}
+	input {
+		width:525px;
+		height: 30px;
+		border-radius: 5%;
+	}
+	.register {
+		display: block;
+		width: 600px;
+		border:1px solid black;
+		background: #eff7d2;
+		float: left;
+		margin-left: 100px;
+	}
+	.fieldName {
+		font-size: 25px;
+		font-weight: bold;
+		margin-left: 40px;
+	}
+	.info {
+		font-size: 20px;
+		font-style: italic;
+		text-align: center;
+	}
+	.infoHotline {
+		color: red;
+		font-style: italic;
+		font-size: 20px;
+	}
+	.buttonRegister {
+		background: #479418;
+		color: white ;
+		border-radius: 10%;
+		width: 200px;
+		margin-left: 40px;
+	}
+	footer {
+		margin-top: 60px;
+		width: 100%;
+		float: left;
+	}
+}
+/*==============================================*/
+/*kích thước tối đa là 480px*/
+@media screen and (max-width: 480px) {
+	body {
+		margin: 0 auto;
+		background-image: linear-gradient(white,#00A680 140%);
+		width:480px;
+	}
+	.logoQB {
+		width:170px;
+		height: 120px;
+	}
+	.banner {
+		width: 65%;
+		text-shadow: 4px 4px black;
+		color: yellow;
+		font-size: 19px;
+		text-align: center;
+		margin-left: 150px;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 120px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 10px;
+	}
+	.menu {
+		width: 100%;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: 0px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;
+	    margin-right: 74px;
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	.content {
+		width: 80%;
+	}
+	h2 {
+	    text-align: center;
+	    width: 100%;
+	    font-size: 20px;
+	    margin-left: 60px;
+	} 
+	.red {
+		color:red;
+	}
+	.address, .phoneNumber, .hotline {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+	}
+	input {
+		width:90%;
+		height: 30px;
+		border-radius: 5%;
+	}
+	.register {
+		display: block;
+		width: 90%;
+		border:1px solid black;
+		background: #eff7d2;
+		float: left;
+		margin-left: 75px;
+	}
+	.fieldName {
+		font-size: 25px;
+		font-weight: bold;
+		margin-left: 40px;
+	}
+	.info {
+		font-size: 20px;
+		font-style: italic;
+		text-align: center;
+	}
+	.infoHotline {
+		color: red;
+		font-style: italic;
+		font-size: 20px;
+	}
+	.buttonRegister {
+		background: #479418;
+		color: white ;
+		border-radius: 10%;
+		width: 200px;
+		margin-left: 40px;
+	}
+	footer {
+		margin-top: 60px;
+		width: 100%;
+		float: left;
+	}
+}

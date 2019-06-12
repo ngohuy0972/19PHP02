@@ -1,0 +1,15 @@
+/*Định nghĩa một font chữ mới*/
+@font-face {		
+	font-family: myFont;
+	src:url('../fonts/Acme-Regular.ttf');
+}
+/*Không ai có thể đè lên nó nữa*/
+p {
+	color: red !important ;
+}
+.demo1 {
+	font-family: Arial;
+}
+.demo2 {
+	font-family: myFont;
+}

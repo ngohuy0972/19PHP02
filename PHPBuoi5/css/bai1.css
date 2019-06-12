@@ -1,0 +1,23 @@
+ul li{
+	border :1px solid blue;
+	width: 150px;
+	height: 35px;
+	background-color: blue;
+	float: left;
+	list-style-type: none;
+}
+ul li a {
+	display: block;
+	border:1px solid white;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 33px;
+}
+ul li .member_menu {
+	color:yellow;
+}
+p {
+	font-weight: bold;
+}

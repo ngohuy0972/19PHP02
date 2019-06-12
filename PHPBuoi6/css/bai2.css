@@ -1,0 +1,24 @@
+.container {
+	margin: 0 auto;
+	width: 800px;
+}
+.logo {
+	float: left;
+}
+.textHeader {
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.shadowHeader {
+	font-weight: bold;
+	color: yellow;
+	text-shadow: 2px 2px black;
+	font-size: 35px;
+}
+.greenHeader {
+	font-style: italic;
+	color: green;
+	font-weight: bold;
+	font-size: 25px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="css/Calculator.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<div class="calculatorFrame">
+		<input id="calculatorSection" type="text" >
+		<input class="characters" type="button" value="7"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="8"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="9"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="/"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="del"  onclick="calculatorSection.value = calculatorSection.value.substr(0,calculatorSection.value.length-1)"> 	
+		<input class="characters" type="button" value="%"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="("  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value=")"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="4"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="5"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="6"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="*"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="C"  onclick="calculatorSection.value = ' '">
+		<input class="characters" type="button" value="sqrt"  onclick="calculatorSection.value = Math.sqrt(calculatorSection.value)">
+		<input class="characters" type="button" value="^"  onclick="calculatorSection.value = Math.pow(calculatorSection.value,2)">
+		<input class="characters" type="button" value="!"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="1"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="2"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="3"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="+"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="sin"  onclick="calculatorSection.value = Math.sin(calculatorSection.value)">
+		<input class="characters" type="button" value="tan"  onclick="calculatorSection.value = Math.tan(calculatorSection.value)">
+		<input class="characters" type="button" value="log"  onclick="calculatorSection.value = Math.log(calculatorSection.value)">
+		<input class="charactersZero" type="button" value="0"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="."  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="-"  onclick="calculatorSection.value += this.value">
+		<input class="characters" type="button" value="cos"  onclick="calculatorSection.value = Math.cos(calculatorSection.value)">
+		<input class="characters" type="button" value="cot"  onclick="calculatorSection.value =( 1 / Math.tan(calculatorSection.value))">
+		<input class="characters" type="button" value="e"  onclick="calculatorSection.value = Math.E">
+		<input class="charactersEquals" type="button" value="="  onclick="calculatorSection.value = eval(calculatorSection.value)">
+	</div>
+	<script type="text/javascript"></script>
+</body>
+</html>

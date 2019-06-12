@@ -1,0 +1,239 @@
+body {
+	background-image: url('../image/coverPhoto.jpg');
+	width: 100%;
+    background-size: cover;
+}
+.container {
+	margin: 0 auto;
+}
+@font-face {		
+	font-family: myFont_h1;
+	src:url('../fonts/ArchitectsDaughter-Regular.ttf');
+}
+.info {
+	color: #f3f3f378;;
+	font-size: 12px;
+	margin-left: 980px;
+	text-align: center;
+}
+h1 {
+	font-family: myFont_h1;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    color: white;
+    font-size: 55px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.menu {
+	margin-top: 0px;
+}
+.menu ul {
+	margin-left: 200px;
+}
+.menu ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 80px;
+}
+.inMenu {
+	text-decoration: none;
+	display: block;
+	border:1px solid white;
+	width: 170px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.inMenu:hover {
+	background: black;
+	opacity: 0.6;
+	color: white;
+
+}
+/*===============================================*/
+/*Màn hình kích thước lớn nhất là 1024px*/
+@media screen and (max-width:1024px ) {
+	body {
+		background-image: url('../image/coverPhoto2.jpg');
+		width: 1024px;
+	    background-size: cover;
+	}
+	.container {
+		margin: 0 auto;
+		width: 1024px;
+	}
+	@font-face {		
+		font-family: myFont_h1;
+		src:url('../fonts/ArchitectsDaughter-Regular.ttf');
+	}
+	.info {
+		color: #f3f3f378;;
+		font-size: 12px;
+		margin-left: 830px;
+		text-align: center;
+	}
+	h1 {
+		font-family: myFont_h1;
+	    text-align: center;
+	    font-weight: bold;
+	    text-shadow: 3px 3px black;
+	    color: white;
+	    font-size: 80px;
+	    margin-top: 150px;
+	    margin-bottom: 100px;
+	}
+	.menu {
+		margin-top: 0px;
+	}
+	.menu ul {
+		margin-left: 55px;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 80px;
+	}
+	.inMenu {
+		text-decoration: none;
+		display: block;
+		border:1px solid #523939;
+		width: 170px;
+		height: 40px;
+		color: #523939;;
+		text-align: center;
+		line-height: 40px;
+	}
+	.inMenu:hover {
+		background: black;
+		opacity: 0.6;
+		color: white;
+
+	}
+}
+/*===============================================*/
+/*Màn hình kích thước lớn nhất là 768px*/
+@media screen and (max-width:768px ) {
+	body {
+		background-image: url('../image/coverPhoto2.jpg');
+		width: 768px;
+	    background-size: cover;
+	}
+	.container {
+		margin: 0 auto;
+		width: 768px;
+	}
+	@font-face {		
+		font-family: myFont_h1;
+		src:url('../fonts/ArchitectsDaughter-Regular.ttf');
+	}
+	.info {
+		color: #f3f3f378;;
+		font-size: 12px;
+		margin-left: 570px;
+		text-align: center;
+	}
+	h1 {
+		font-family: myFont_h1;
+	    text-align: center;
+	    font-weight: bold;
+	    text-shadow: 3px 3px black;
+	    color: white;
+	    font-size: 45px;
+	    margin-top: 245px;
+	    margin-bottom: 100px;
+	    margin-left: -20px;
+	}
+	.menu {
+		margin-top: 0px;
+	}
+	.menu ul {
+		margin-left: 100px;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 5px;
+	}
+	.inMenu {
+	    text-decoration: none;
+	    display: block;
+	    border: 1px solid #523939;
+	    width: 120px;
+	    height: 30px;
+	    color: #523939;
+	    text-align: center;
+	    line-height: 30px;
+	    margin-right: 50px;
+	}
+	.inMenu:hover {
+		background: black;
+		opacity: 0.6;
+		color: white;
+
+	}
+}
+/*===============================================*/
+/*Màn hình kích thước lớn nhất là 480px*/
+@media screen and (max-width:480px ) {
+	body {
+		background-image: url('../image/coverPhoto2.jpg');
+	    width: 480px;
+	    background-size: cover;
+	}
+	.container {
+		margin: 0 auto;
+		width: 480px;
+	}
+	@font-face {		
+		font-family: myFont_h1;
+		src:url('../fonts/ArchitectsDaughter-Regular.ttf');
+	}
+	.info {
+		color: #f3f3f378;;
+		font-size: 12px;
+		margin-left: 290px;
+		text-align: center;
+	}
+	h1 {
+		font-family: myFont_h1;
+	    text-align: center;
+	    font-weight: bold;
+	    text-shadow: 3px 3px black;
+	    color: white;
+	    font-size: 40px;
+	    margin-top: 20px;
+	    margin-bottom: 100px;
+	    margin-left: -20px;
+	}
+	.menu {
+		margin-top: 0px;
+	}
+	.menu ul {
+		margin-left: 14px;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: -30px;
+	}
+	.inMenu {
+	    text-decoration: none;
+	    display: block;
+	    border: 1px solid #523939;
+	    width: 120px;
+	    height: 30px;
+	    color: #523939;
+	    text-align: center;
+	    line-height: 30px;
+	    margin-right: 50px;
+	}
+	.inMenu:hover {
+		background: black;
+		opacity: 0.6;
+		color: white;
+
+	}
+}

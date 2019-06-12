@@ -1,0 +1,395 @@
+body {
+	background-image: linear-gradient(white,#00A680 140%);
+}
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+.logoQB {
+	width:215px;
+	height: 150px;
+}
+.banner {
+	width: 950px;
+	text-shadow: 4px 4px black;
+	color: yellow;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 150px;
+}
+.header {
+	display: block;
+	width: 1200px;
+	height: 150px;
+	border-bottom: 2px solid black;
+	background-image: linear-gradient(white,#00A680 140%);
+}
+.logo {
+	float: left;
+}
+.menu ul li {
+	list-style-type: none;
+	float: left;
+	margin-left: 65px;
+}
+.menu {
+	width: 1200px;
+	height: 45px;
+	display: block;	
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	background: #00A680;
+}
+.inMenu {
+	display: block;
+    text-align: center;
+    margin-left: 165px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-top: -15px;	
+}
+.inMenu:hover {
+    color: #00A680;
+    background: white;
+}
+h1 {
+	text-align: center;
+}
+.section {
+	font-size: 30px;
+	text-align: center;
+}
+p {
+	font-size: 20px;
+	display: block;
+	width: 800px;
+	margin-left: 210px;
+}
+table {
+	width: 600px;
+	border-collapse: collapse;
+	color: #4301CD;
+	margin-left: 315px;
+}
+thead tr td {
+	border:1px solid black;
+	width: 150px;
+	height: 50px;
+	color: #4301CD;
+	text-align: center;
+}
+thead tr th {
+	border:1px solid black;
+}
+tbody tr td {
+	border:1px solid black;
+	width: 150px;
+	height: 50px;
+	color: #4301CD;
+	text-align: center;
+}
+thead {
+	background: #99FFFF;
+}
+/*Màn hình rộng nhất là 1024px*/
+@media screen and (max-width: 1024px) {
+	body {
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.container {
+		margin: 0 auto;
+		width: 1024px;
+	}
+	.logoQB {
+		width:215px;
+		height: 150px;
+	}
+	.banner {
+		width: 80%;
+	    text-shadow: 4px 4px black;
+	    color: yellow;
+	    font-size: 30px;
+	    text-align: center;
+	    margin-left: 26px;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 150px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 65px;
+	}
+	.menu {
+		width: 100%;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: 165px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;	
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	h1 {
+		text-align: center;
+	}
+	.section {
+		font-size: 30px;
+		text-align: center;
+	}
+	p {
+		font-size: 20px;
+		display: block;
+		width: 800px;
+		margin-left: 120px;
+	}
+	table {
+		width: 600px;
+		border-collapse: collapse;
+		color: #4301CD;
+		margin-left: 200px;
+	}
+	thead tr td {
+		border:1px solid black;
+		width: 150px;
+		height: 50px;
+		color: #4301CD;
+		text-align: center;
+	}
+	thead tr th {
+		border:1px solid black;
+	}
+	tbody tr td {
+		border:1px solid black;
+		width: 150px;
+		height: 50px;
+		color: #4301CD;
+		text-align: center;
+	}
+	thead {
+		background: #99FFFF;
+	}
+}
+/*Màn hình rộng nhất là 768px*/
+@media screen and (max-width:768px){
+	body {
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.container {
+		margin: 0 auto;
+		width: 768px;
+	}
+	.logoQB {
+		width:215px;
+		height: 150px;
+	}
+	.banner {
+		width: 80%;
+		text-shadow: 4px 4px black;
+		color: yellow;
+		font-size: 30px;
+		text-align: center;
+		margin-left: 150px;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 150px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 65px;
+	}
+	.menu {
+		width: 768px;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: 65px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;	
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	h1 {
+		text-align: center;
+	}
+	.section {
+		font-size: 30px;
+		text-align: center;
+	}
+	p {
+		font-size: 20px;
+		display: block;
+		width: 90%;
+		margin-left: 35px;
+	}
+	table {
+		width: 666px;
+		border-collapse: collapse;
+		color: #4301CD;
+		margin-left: 45px;
+	}
+	thead tr td {
+		border:1px solid black;
+		width: 150px;
+		height: 50px;
+		color: #4301CD;
+		text-align: center;
+	}
+	thead tr th {
+		border:1px solid black;
+	}
+	tbody tr td {
+		border:1px solid black;
+		width: 150px;
+		height: 50px;
+		color: #4301CD;
+		text-align: center;
+	}
+	thead {
+		background: #99FFFF;
+	}
+}
+/*Màn hình rộng nhất là 480px*/
+@media screen and (max-width:480px){
+	body {
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.container {
+		margin: 0 auto;
+		width: 480px;
+	}
+	.logoQB {
+		width:140px;
+		height: 105px;
+	}
+	.banner {
+		width: 65%;
+	    text-shadow: 4px 4px black;
+	    color: yellow;
+	    font-size: 20px;
+	    text-align: center;
+	    margin-left: 150px;
+	}
+	.header {
+		display: block;
+		width: 100%;
+		height: 105px;
+		border-bottom: 2px solid black;
+		background-image: linear-gradient(white,#00A680 140%);
+	}
+	.logo {
+		float: left;
+	}
+	.menu ul li {
+		list-style-type: none;
+		float: left;
+		margin-left: 65px;
+	}
+	.menu {
+		width: 480px;
+		height: 45px;
+		display: block;	
+		border-bottom: 2px solid black;
+		border-top: 2px solid black;
+		background: #00A680;
+	}
+	.inMenu {
+		display: block;
+	    text-align: center;
+	    margin-left: -5px;
+	    height: 40px;
+	    line-height: 40px;
+	    float: left;
+	    text-decoration: none;
+	    color: white;
+	    margin-top: -15px;	
+	}
+	.inMenu:hover {
+	    color: #00A680;
+	    background: white;
+	}
+	h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.section {
+		font-size: 30px;
+		text-align: center;
+	}
+	p {
+		font-size: 16px;
+		display: block;
+		width: 80%;
+		margin-left: 50px;
+	}
+	table {
+		width: 90%;
+		border-collapse: collapse;
+		color: #4301CD;
+		margin-left: 20px;
+	}
+	thead tr td {
+		border:1px solid black;
+		width: 150px;
+		height: 50px;
+		color: #4301CD;
+		text-align: center;
+	}
+	thead tr th {
+		border:1px solid black;
+	}
+	tbody tr td {
+		border:1px solid black;
+		width: 150px;
+		height: 50px;
+		color: #4301CD;
+		text-align: center;
+	}
+	thead {
+		background: #99FFFF;
+	}
+}
+}

@@ -1,0 +1,121 @@
+
+#container {
+	width: 95%;
+	margin: 0 auto;
+}
+header {
+	display: block;
+	height: 100px;
+	border: 1px solid black;
+}
+#logo {
+	width: 30%;
+	border: 1px solid black;
+	float: left;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+#slogan {
+	width: 69.6%;
+	border: 1px solid black;
+	float: left;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+section {
+	display: block;
+	height: 500px;
+	border: 1px solid black;
+}
+#slider {
+	border-bottom: 1px solid black;
+	height: 100px;	
+	text-align: center;
+	line-height: 100px;
+}
+#new1, #new2, #new3 {
+	border-right: 1px solid black;
+	width: 33.24%;
+	height: 100px;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+}
+#ads1, #ads2 {
+	border: 1px solid black;
+	height: 100px;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+}
+#ads1 {
+	width: 66.4%;
+	border-right: 1px solid black;
+	text-align: center;
+	line-height: 100px;
+}
+#ads2 {
+	width: 33.2%;
+	text-align: center;
+	line-height: 100px;
+}
+#content {
+	border: 1px solid black;
+	height: 195px;
+	width: 99.8%;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+}
+footer {
+	display: block;
+	border:1px solid black;
+	height: 100px;
+}
+#footer1, #footer2 {
+	border-right: 1px solid black;
+	width: 49.89%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+}
+@media screen and (max-width: 768px){
+	#slogan, #logo {
+		width: 49.7%;
+	}
+	#new1,#new2{
+		width: 49.85%;
+	}
+	#new3 {
+		width: 100%;
+		border: 1px solid black;
+	}
+	#ads1{
+		width: 100%;
+	}
+	#ads2{
+		display: none;
+	}
+	#content {
+		height: 95px;
+		line-height: 95px;
+	}
+	#footer1, #footer2 {
+		width: 49.85%
+	}
+}
+@media screen and (max-width: 480px) {
+	#new3{
+		display: none;
+	}
+	#logo,#slogan,#new1,#new2,#ads1,#content,#footer1,#footer2{
+		width: 100%;
+		float: left;
+	}
+	section {
+		height:410px;
+	}
+}

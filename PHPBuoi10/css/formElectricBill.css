@@ -1,0 +1,13 @@
+body {
+	margin:0 auto;
+	border: 1px solid black;
+	width: 400px;
+	padding:20px;
+}
+input {
+	width: 300px;
+	margin-left: 45px;
+}
+.error {
+	color: red;
+}

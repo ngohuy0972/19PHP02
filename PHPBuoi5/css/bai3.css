@@ -1,0 +1,41 @@
+.container {
+	margin: 0 auto;
+	width: 650px;
+}
+h1 {
+	text-align: center;
+}
+p {
+	font-weight: bold;
+}
+.box {
+	width: 600px;
+	height: 30px;
+	border-radius: 2px 2px 2px 2px;
+}
+.borderRegistration {
+	margin-left: 20px;
+}
+.red {
+	color: red;
+}
+.radioBlock {
+	display: block;
+	width: 99.5%;
+	height: 40px;
+}
+.radioButtonMale {
+	float: left;
+}
+.radioButtonFemale {
+	float: left;
+	margin-left: 10px;
+}
+.submit {
+	width: 70px;
+	height: 35px;
+	background: #00CCFF;
+	color: white;
+	border-radius: 2px 2px 2px 2px;
+	margin-top: 10px;
+}

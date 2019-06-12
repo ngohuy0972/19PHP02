@@ -1,0 +1,17 @@
+ul li {
+	list-style-type: none;
+	border: 2px solid blue;
+	width: 150px;
+	height: 20px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+}
+p {
+	margin-left: 10px;
+	font-weight: bold;
+}

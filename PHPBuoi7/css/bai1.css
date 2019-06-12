@@ -1,0 +1,17 @@
+table, tr, td {
+border:1px solid black;
+}
+table {
+	width: 400px;
+	border-collapse: collapse;
+}
+thead, tbody {
+	background: green;
+}
+/*nth-chidl(n) :chọn đối tượng con muốn tác động ;*/
+th:nth-child(1) {
+	background: red;
+}
+td:nth-child(1) {
+	background: blue;
+}

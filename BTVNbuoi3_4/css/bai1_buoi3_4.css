@@ -1,0 +1,53 @@
+.container{
+	margin:0 auto;
+	border:1px solid white;
+	width: 630px;
+}
+.block1{
+	border:1px solid yellow;
+	width: 576px;
+	height: 150px;
+	background: yellow;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+}
+.block2{
+	border:1px solid yellow;
+	width: 150px;
+	height: 221px;
+	background: yellow;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+}
+.block3, .block6, .block7, .block8, .block9{
+	border:1px solid yellow;
+	width: 135px;
+	height: 50px;
+	background: yellow;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+}
+.block4, .block5{
+	border:1px solid yellow;
+	width: 277px;
+	height: 50px;
+	background: yellow;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+}
+.block10{
+	border:1px solid yellow;
+	width:420px;
+	height: 50px;
+	background: yellow;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+}
+p {
+	color: orange;
+}

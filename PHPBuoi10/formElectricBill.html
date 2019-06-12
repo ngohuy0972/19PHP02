@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Electric Bill</title>
+	<link rel="stylesheet" href="css/formElectricBill.css">
+</head>
+<body>
+	<h1>Form Electric Bill</h1>
+	<form>
+		<p>Họ Tên :
+			<input type="text" name="name" id="name">
+		</p>
+		<p id="errName" class="error"></p>
+		<p>Số điện đầu kỳ :
+			<input type="text" name="first_electric_numbers" id="first_electric_numbers">
+		</p>
+		<p id="errFirst_electric_numbers" class="error"></p>
+		<p>Số điện cuối kỳ :
+			<input type="text" name="last_electric_numbers"  id="last_electric_numbers">
+		</p>
+		<p id="errLast_electric_numbers" class="error"></p>
+		<p>Ngày đầu kỳ :
+			<input type="date" name="first_date"  id="first_date">
+		</p>
+		<p id="errFirst_date" class="error"></p>
+		<p>Ngày cuối kỳ :
+			<input type="date" name="last_date"  id="last_date">
+		</p>
+		<p id="errLast_date" class="error"></p>
+		<p>
+			<input type="button" name="register" id="register" value="Tính Tiền Điện" onclick="checkElectricForm()">
+		</p>	
+	</form>
+	<script src="js/formElectricBill.js"></script>
+</body>
+</html>

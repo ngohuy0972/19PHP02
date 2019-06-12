@@ -1,0 +1,23 @@
+.container {
+	margin:0 auto;
+	width: 1200px;
+}
+.player img {
+	display: block;
+	width: 45%;
+	height:275px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.image_default {
+	display: block;
+	float: left;
+	width: 600px;
+	margin-left: 370px;
+	margin-top: 50px;
+}
+.image_default img {
+	width: 95%;
+	height: 300px;
+}
