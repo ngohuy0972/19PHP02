@@ -56,25 +56,39 @@ function checkElectricForm() {
 }
 
 function electricBill() {
-	var newElectricIndex = document.getElementById('first_electric_numbers').value;
-	var oldElectricIndex = document.getElementById('last_electric_numbers').value;
+	var oldElectricIndex = document.getElementById('first_electric_numbers').value;
+	var newElectricIndex = document.getElementById('last_electric_numbers').value;
 	var electricMoney;
 	var electricIndex = newElectricIndex - oldElectricIndex;
 
-	if (electricIndex <= 100) {
-		electricMoney = electricIndex * 1500;
-	}
-	if (electricIndex > 100 && electricIndex <= 300) {
-		electricMoney = electricIndex * 2000;
-	} else if (electricIndex > 300) {
-		electricMoney = electricIndex * 3500;
-	} else {
-		document.write('Số điện không hợp lệ...');
-	}
- }
-
-	//document.write("Tiền điện là : " +electricBill());
-
-function openWindows() {
-
+	electricMoney = consumptionRange(electricIndex ,300 ,newElectricIndex) * 3500 + (consumptionRange(electricIndex ,100, 300) * 2000) + (consumptionRange(electricIndex ,0, 100) * 1500);
+	document.write("So cu la : " +oldElectricIndex);
+	document.write("So moi la : " +newElectricIndex);
+	document.write("So tien dien phai tra la : " +electricMoney);
 }
+function consumptionRange(x ,  range_1 , range_2) {
+	// x là tổng sô điện tiêu thụ
+	// range_1 là khoảng sô điện cũ
+	// range_2 là khoảng số điện mới
+
+	if (x <= range_1) {
+		return 0;
+	}
+	if (x >= range_2) {
+		return (range_2 - range_1);
+	}
+	return (x - range_1);
+}
+
+function printElectricBill() {
+	var myBill = window.open("","Electric Bill","width=500,height=500");
+	var name = document.getElementById('name').value;
+	var fisrtElectricNumbers = document.getElementById('first_electric_numbers').value;
+	var lastElectricNumbers = document.getElementById('last_electric_numbers').value;
+	var firstDate = document.getElementById('first_date').value;
+	var lastDate = document.getElementById('last_date').value;
+	myBill.document.writeln("Ho ten la : " +name);
+	myBill.document.writeln("Tinh tu ngay : " +firstDate+ " den ngay : "+lastDate);
+	myBill.document.writeln("Su dung het : " +(lastElectricNumbers-fisrtElectricNumbers)+ " so va tong so tien phai tra la : " +electricBill());
+}
+
